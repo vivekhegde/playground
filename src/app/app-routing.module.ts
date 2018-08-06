@@ -2,6 +2,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CvComponent } from './components/cv/cv.component';
+import { FlexboxComponent } from './components/flexbox/flexbox.component';
 
 const routes: Routes = [
     {
@@ -11,11 +12,15 @@ const routes: Routes = [
     {
         path: 'cv',
         component: CvComponent
+    },
+    {
+        path: 'flex',
+        component: FlexboxComponent
     }
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes, {useHash: true})],
+    imports: [RouterModule.forRoot(routes, { useHash: true })],
     exports: [RouterModule]
 })
 export class AppRoutingModule { }

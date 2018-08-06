@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WebLinksComponent } from './web-links.component';
+import { FlexboxComponent } from './flexbox.component';
 
-describe('WebLinksComponent', () => {
-  let component: WebLinksComponent;
-  let fixture: ComponentFixture<WebLinksComponent>;
+describe('FlexboxComponent', () => {
+  let component: FlexboxComponent;
+  let fixture: ComponentFixture<FlexboxComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WebLinksComponent ]
+      declarations: [ FlexboxComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WebLinksComponent);
+    fixture = TestBed.createComponent(FlexboxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

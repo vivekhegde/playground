@@ -20,6 +20,7 @@ import { WebviewDirective } from './directives/webview.directive';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { CvComponent } from './components/cv/cv.component';
+import { FlexboxComponent } from './components/flexbox/flexbox.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -31,7 +32,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HomeComponent,
     WebviewDirective,
-    CvComponent
+    CvComponent,
+    FlexboxComponent
   ],
   imports: [
     BrowserModule,
