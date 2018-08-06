@@ -19,6 +19,10 @@ import { WebviewDirective } from './directives/webview.directive';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+<<<<<<< HEAD
+=======
+import { CvComponent } from './components/cv/cv.component';
+>>>>>>> 02449b529871762e379518d0779365933d1b0f13
 import { FlexboxComponent } from './components/flexbox/flexbox.component';
 
 // AoT requires an exported function for factories
@@ -31,6 +35,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HomeComponent,
     WebviewDirective,
+<<<<<<< HEAD
+=======
+    CvComponent,
+>>>>>>> 02449b529871762e379518d0779365933d1b0f13
     FlexboxComponent
   ],
   imports: [
