@@ -1,0 +1,22 @@
+.main-container {
+    display: flex;
+}
+
+.main-container div{
+    flex-basis: 45%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  .flex-container :first-child {
+    border-right: 1px solid black; 
+  }
+  .flex-container > div {
+    // background-color: green;
+    margin: 5px;
+    text-align: center;
+    flex: 1;
+  }
